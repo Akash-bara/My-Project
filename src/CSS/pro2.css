@@ -1,0 +1,42 @@
+/* Background and container */
+/* Remove default margin/padding from the whole page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.clock_container {
+  background-image: url(../assets/wallapaer.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+/* Clock box styling */
+.clock {
+  background-color: rgba(118, 245, 129, 0.6); /* transparent black */
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(16, 246, 112, 0.3);
+}
+
+/* Time display */
+.clock snap {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}

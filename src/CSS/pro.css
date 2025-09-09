@@ -1,0 +1,44 @@
+/* pro.css */
+
+.color-pickerr {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-pickerr h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.color-display {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto 20px auto;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.color-display p {
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
